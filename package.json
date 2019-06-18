@@ -1,5 +1,5 @@
 {
-    "name": "centralized-login",
+    "name": "social-login-providers",
     "version": "0.2.0",
     "private": true,
     "devDependencies": {
@@ -15,7 +15,8 @@
         "react-router-dom": "^5.0.0"
     },
     "scripts": {
-        "start": "react-scripts start",
+        "dev": "react-scripts start",
+        "start": "serve -s build",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject"
