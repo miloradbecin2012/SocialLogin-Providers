@@ -12,7 +12,6 @@ class Login extends Component {
 
   render() {
     return (
-    //   <div className="container">
         <div className="limiter">
             <div className="container-login100">
                 <div className="wrap-login100">
@@ -66,7 +65,6 @@ class Login extends Component {
                 </div>
             </div>
         </div>
-    //   </div>
     );
   }
 }
