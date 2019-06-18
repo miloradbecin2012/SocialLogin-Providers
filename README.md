@@ -10,10 +10,6 @@ Clone the repo or download it from the React quickstart page in Auth0's document
 
 Open the demo.
 
-```bash
-cd 01-Login
-```
-
 Install the dependencies for the app.
 
 ```
