@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../../assets/css/main.css';
 import '../../assets/css/util.css';
 import '../../assets/css/animate.css';
-import '../../assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css'
 import loginImg from '../../assets/images/img-01.png';
 
 class Login extends Component {
