@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Tilt from "react-tilt";
+import { SocialIcon } from 'react-social-icons';
+
 import '../../assets/css/main.css';
 import '../../assets/css/util.css';
 import '../../assets/css/animate.css';
@@ -33,10 +35,16 @@ class Login extends Component {
 
                         <div className="login100-form validate-form">
                             <span className="login100-form-title">
-                                OAuth Providers
-                        </span>
+                                Social Login Providers
+                            </span>
+                            <div className="social-media-icons">
+                                <SocialIcon network="linkedin" style={{ height: 60, width: 60, margin: '0 5px 0 5px' }} />
+                                <SocialIcon network="facebook" style={{ height: 60, width: 60, margin: '0 5px 0 5px'  }} />
+                                <SocialIcon network="google" style={{ height: 60, width: 60, margin: '0 5px 0 5px' }} />
+                                <SocialIcon network="twitter" style={{ height: 60, width: 60, margin: '0 5px 0 5px'}} />
+                            </div>
 
-                            <div className="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                            {/* <div className="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
                                 <input className="input100" type="text" name="email" placeholder="Email" />
                                 <span className="focus-input100"></span>
                                 <span className="symbol-input100">
@@ -50,7 +58,7 @@ class Login extends Component {
                                 <span className="symbol-input100">
                                     <i className="fa fa-lock" aria-hidden="true"></i>
                                 </span>
-                            </div>
+                            </div> */}
 
                             <div className="container-login100-form-btn">
                                 <button className="login100-form-btn" onClick={this.login.bind(this)}>
@@ -61,10 +69,10 @@ class Login extends Component {
                             <div className="text-center p-t-12">
                                 <span className="txt1">
                                     Forgot
-                            </span>
+                                </span>
                                 <a className="txt2" href="#">
                                     Username / Password?
-                            </a>
+                                </a>
                             </div>
 
                             <div className="text-center p-t-136">
